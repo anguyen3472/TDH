@@ -11,8 +11,8 @@ use Mac;
 
 use Data::Dumper;
 
-print("Enter working directory (network drive of [Administration Clients])\n");
-print("(Example : v:Administration Clients)\n");
+print("Enter working directory(where the audit files are)\n");
+print("(Example : C:\Users\a.nguyen\Documents\TDH_AUDIT)\n");
 my $WD = <STDIN>;
 chomp($WD);
 print("Enter name of the client :\n");
